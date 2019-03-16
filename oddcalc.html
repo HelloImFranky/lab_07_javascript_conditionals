@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    var numb1=prompt("Pick a number");
+    var numb2=prompt("Pick another number");
+    var choice=prompt("What operation would you like to choose?\n"
+    + "mult = * \n"
+    + "div = / \n"
+    + "mod = % \n");
+    var multiply=("mult");
+    var division=("div");
+    var modulo=("mod");
+      if (choice===multiply){
+        console.log(numb1*numb2 + " is your multiplied sum");
+      }
+        else if (choice===division){
+          console.log(numb2/numb1 + " is your divided sum");
+        }
+          else if (choice===modulo){
+          console.log(numb2%numb1 + " is the remainder");
+        }
+          else {
+            console.log("***invalid operation***");
+          }
+      </script>
+  </body>
+</html>
