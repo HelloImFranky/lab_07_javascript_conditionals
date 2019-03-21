@@ -6,28 +6,29 @@
   </head>
   <body>
     <script>
+
+
     var numbGuess = prompt("Guess my number! 1-9");
-    var correctNumb = "6";
+    var actualNumb = parseInt(numbGuess);
+    var correctNumb= "6";
 
-      function randVal(1,9){
-        var secretNumb = parseInt("6");
-      }
-        if (numbGuess>=7){
-          console.log("Close, but the number is " + correctNumb);
-        }
-          else if (numbGuess=<5){
-            console.log("Close, but the number is " + correctNumb);
-          }
-    /*  if (numbGuess===rndnumb) {
-          console.log("You guessed " + correctnumb + "correctly!");
-          else {
-            break;
-          }
-        }
-}
 
-     console.log(getRandomInt(100)); 
-     */
+    if (actualNumb===6) {
+      console.log("You've guessed my number!");
+        }
+        else if (actualNumb>=8) {
+              console.log("Sorry wrong answer");
+            }
+            else if (actualNumb<=4)
+            {
+              console.log("Sorry wrong answer");
+            }
+            else if (actualNumb= 5 && 7) {
+                console.log("Close, but the number is " + correctNumb);
+              }
+            else
+              console.log("not a valid input");
+
       </script>
   </body>
 </html>
